@@ -4,46 +4,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meu IMC</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <section>
       <div id="container-master">
         <h1>MEU IMC</h1>
         <form id="form">
-          <div class="container-inputs">
-            <label>Sexo:</label>
-            <div>
-              <input type="radio" name="sexo" id="sexoHomem" />
-              <label for="sexoHomem">Homem</label>
+          <div class="container-meu-imc">
+            <div class="container-input-radio">
+              <label>Sexo:</label>
 
-              <input type="radio" name="sexo" id="sexoMulher" />
-              <label for="sexoMulher">Mulher</label>
+              <input type="radio" name="sexo" class="sexoHomem" />
+              <label for="sexoHomem" class="sexoHomem">Homem</label>
+
+              <input type="radio" name="sexo" class="sexoMulher" />
+              <label for="sexoMulher" class="sexoMulher">Mulher</label>
             </div>
-          </div>
 
-          <div class="campo-input">
-            <label for="peso">Peso (Kg):</label>
-            <input
-              type="number"
-              name="peso"
-              id="peso"
-              step="0.1"
-              placeholder="Peso (kg)"
-            />
-          </div>
+            <div class="campo-input">
+              <label for="peso">Peso (Kg):</label>
+              <input
+                type="number"
+                name="peso"
+                id="peso"
+                step="0.1"
+                placeholder="Peso (kg)"
+              />
+            </div>
 
-          <div class="campo-input">
-            <label for="altura">Altura (m):</label>
-            <input
-              type="number"
-              name="altura"
-              id="altura"
-              step="0.01"
-              placeholder="Altura (m)"
-            />
+            <div class="campo-input">
+              <label for="altura">Altura (m):</label>
+              <input
+                type="number"
+                name="altura"
+                id="altura"
+                step="0.01"
+                placeholder="Altura (m)"
+              />
+            </div>
+            <button type="submit" id="btnCalcular">Calcular</button>
           </div>
-          <button type="submit">Calcular</button>
         </form>
         <h3 id="resultado">Seu IMC é: 0.00</h3>
       </div>

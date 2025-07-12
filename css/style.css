@@ -1,3 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(219, 219, 219);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#container-master{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top:5% ;
+    align-items: center;
+    padding: 2rem;
+    font-size: 20px;
+}
+.container-input-radio{
+    padding: 1rem;
+}
+.campo-input{
+    padding: 1rem;
+}
+.sexoHomem{
+    color: rgb(2, 9, 207);
+}
+.sexoMulher{
+    color: blueviolet;
+}
+#peso, #altura{
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-bottom: 2px solid;
+    border-radius: 1rem;
+}
+#btnCalcular{
+    width: 100%;
+    padding: 0.6rem;
+    font-size: 22px;
+    margin: 15px 0px;
+    border-radius: 1rem;
+    border: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .color-h2-valorImc{
   color: blue;
 }
