@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meu IMC</title>
+    <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
     <section>
@@ -13,32 +14,35 @@
           <div class="container-inputs">
             <label>Sexo:</label>
             <div>
-              <input type="radio" name="sexo" id="sexoHomem">
+              <input type="radio" name="sexo" id="sexoHomem" />
               <label for="sexoHomem">Homem</label>
-              
-              <input type="radio" name="sexo" id="sexoMulher"/>
+
+              <input type="radio" name="sexo" id="sexoMulher" />
               <label for="sexoMulher">Mulher</label>
             </div>
           </div>
 
-          <div class=""></div>
-          <label for="peso">Peso (Kg):</label>
-          <input
-            type="number"
-            name="peso"
-            id="peso"
-            step="0.1"
-            placeholder="Peso (kg)"
-          />
+          <div class="campo-input">
+            <label for="peso">Peso (Kg):</label>
+            <input
+              type="number"
+              name="peso"
+              id="peso"
+              step="0.1"
+              placeholder="Peso (kg)"
+            />
+          </div>
 
-          <label for="altura">Altura (m):</label>
-          <input
-            type="number"
-            name="altura"
-            id="altura"
-            step="0.01"
-            placeholder="Altura (m)"
-          />
+          <div class="campo-input">
+            <label for="altura">Altura (m):</label>
+            <input
+              type="number"
+              name="altura"
+              id="altura"
+              step="0.01"
+              placeholder="Altura (m)"
+            />
+          </div>
           <button type="submit">Calcular</button>
         </form>
         <h3 id="resultado">Seu IMC é: 0.00</h3>
