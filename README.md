@@ -8,7 +8,7 @@ Este projeto consiste em uma aplicação web simples que calcula o IMC (Índice 
 
 | Interface Principal | Resultado e Validação |
 |---------------------|------------------------|
-| ![Interface](./Captura%20de%20Tela%20(24).png) | ![Erro de Validação](./Captura%20de%20Tela%20(25).png) |
+| ![Interface](assets/img/Captura%20de%20Tela%20(24).png) | ![Erro de Validação](assets/img/Captura%20de%20Tela%20(25).png) |
 
 ---
 
