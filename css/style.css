@@ -14,30 +14,33 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   width: 40%;
- margin: 5% 30%;
+  margin: 5% 30%;
   align-items: center;
   padding: 2rem;
-  font-size: 20px;
   border-radius: 1rem;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
 }
+.container-meu-imc {
+  display: flex;
+  flex-direction: column;
+}
 .container-input-radio {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
   padding: 1rem;
   color: #4b4b4b;
 }
 input[type="radio"] {
   accent-color: #4b4b4b;
 }
-input{
-    outline: none;
+input {
+  outline: none;
 }
-.campo-input input{
-    margin-top: 0.3rem;
+.campo-input input {
+  margin-top: 0.3rem;
 }
 .campo-input,
-h1{
+h1 {
   padding: 1rem;
   color: #4b4b4b;
 }
@@ -69,13 +72,13 @@ h1{
 #btnCalcular:hover {
   background-color: #005766;
 }
-#resultado{
-    color: #4b4b4b;
+#resultado {
+  color: #4b4b4b;
 }
-.container-innerHTML{
-    border-left: 4px solid #005766;
-    border-width:  4px solid #005766;
-    border-radius: 1rem;
+.container-innerHTML {
+  border-left: 4px solid #005766;
+  border-width: 4px solid #005766;
+  border-radius: 1rem;
 }
 .color-modal-h3 {
   color: black;
@@ -101,4 +104,11 @@ h1{
 }
 .color-h2-valorImc span {
   color: rgb(124, 9, 232);
+}
+
+@media (max-width: 768px) {
+  #container-master {
+    width: 70%;
+    margin: 0 auto;   
+}
 }
