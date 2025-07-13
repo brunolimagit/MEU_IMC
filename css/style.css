@@ -112,3 +112,15 @@ h1 {
     margin: 0 auto;   
 }
 }
+@media (max-width:420px){
+    #container-master{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+@media (max-width:300px){
+    #container-master{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
